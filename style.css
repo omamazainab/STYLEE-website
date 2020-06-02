@@ -1,0 +1,122 @@
+.nav-elements {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  a{
+    color: black;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+  .navbar {
+    padding: 2vw 5vw;
+  }
+
+  .pink,
+  .nav-item:hover,
+  a:hover {
+    color: #ff006c !important;
+  }
+
+  .navbar-brand:hover {
+    color: white !important;
+  }
+
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+
+
+  .crousel-description {
+    position: absolute;
+    z-index: 1000;
+    width: 40vw;
+    height: 6vh;
+    margin-top: -3vh;
+    font-size: 4vw;
+    font-weight: 900;
+    left: 50%;
+    text-transform: uppercase;
+    color: wheat;
+    top: 50%;
+    margin-left: -20vw;
+    transition: 2s;
+    /* transform: rotate(360deg); */
+  }
+
+  .overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+
+  }
+
+  .navbar-brand-desc {
+    color: gray;
+    font-weight: 800;
+    font-size: 10px;
+  }
+
+  .section1 {
+    padding: 1vh 1vw;
+  }
+
+  .sec1-inner {
+    padding: 5vh 5vw;
+  }
+
+  .backtotop {
+    width: 100%;
+    height: 3px;
+    background-color: lightgray;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+  .topbtn {
+    width: 50px;
+    background: white;
+    height: 50px;
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: -800%;
+    text-align: center;
+    padding: 8px;
+
+  }
+
+  .topbtn>a {
+    color: gray;
+  }
+
+  .icons>div {
+    display: inline-block;
+  }
+
+  .footer-heading {
+    margin-bottom: 50px;
+  }
+
+  .images1>div>img{
+    width: 90%;
+  }
+
+  
+
+  .small-images{
+    width: 95%;
+    height: 95%;
+  }
+
+  .active{
+    color: #ff006c !important ;
+  }
